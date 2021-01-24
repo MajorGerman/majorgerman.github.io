@@ -42,18 +42,36 @@
 				font-size: 38px;
 			}
 
-			#main1 {			
+			#fullphoto {
+				width: 360px;
+				box-shadow: 1px 1px 9px 2px black;
+				margin: 21px;
+				transition: 0.65s;
 			}
 
-			#georgphoto {
-				width: 560px;
-				box-shadow: 1px 1px 9px 2px black;
-				margin: 25px;
+			#fullphoto:hover {
+				transform: scale(1.35);
 			}
 
 			#maintext {
-				text-align: justify;
-				margin: 35px;
+				text-align: center;
+				width: 80%;
+				margin: auto;
+				margin-top: 26px;
+				margin-bottom: 56px;
+			}
+
+			input {
+				border-radius: 4px;
+				width: 120px;
+				height: 30px;
+				background-color: orange;
+				font-size: 18px;
+				transition: 0.35s;
+			}
+
+			input[type="button"]:hover {
+				transform: scale(1.075);
 			}
 
 		</style>
@@ -77,19 +95,29 @@
 
 		<h1 id="title"> ~ Георг Лаабе ~ </h1>
 
-		<table id="main1">
+		<h2 id="maintext"> Благодаря играм мы можем не только увидеть историю, но и стать её частью!</h2>
+
+		<table style="text-align: center; margin: auto">
 			<tr>
-				<th style="width: 65%;">
-					<h2 id="maintext"> 
-						// Мне 17 лет и я учусь в Ida-Virumaa Kutsehariduskeskus //
-					</h2>
-					<h2 id="maintext">
-						Много лет работы и творчества за компьютером дают о себе знать. Я крайне заинтересован в том, чтобы делать что-то полезное или интересное, благодаря своим навыкам. В этом портфолио я постарался собрать самые яркие работы, которыми когда-либо занимался.
-					</h2>
-				</th>
-				<th>
-					<img id="georgphoto" src="img/georg.jpg">
-				</th>
+				<h1>  LB Snake </h1>
+				<img id="fullphoto" src="MiniGamezzz/Snake Screenshot.png">
+				<h2 style="width: 50%; margin: auto; margin-bottom: 20px"> Один из самых интересных интересных проектов! Змейка, которая работает целиком и полностью на JavaScript! Сделано совместно с Никитой 'busliksuslik' Буслаевым</h2>
+				<a href="MiniGamezzz/LB Snake.html"><input type="button" value="Посетить"></a>
+				<br><br><br><br>
+			</tr>
+			<tr>
+				<h1>  LB BreakOut </h1>
+				<img id="fullphoto" src="img/breakout.png">
+				<h2 style="width: 50%; margin: auto; margin-bottom: 20px"> Адаптация известной игры на JavaScript. Сделано совместно с Никитой 'busliksuslik' Буслаевым</h2>
+				<a href="MiniGamezzz/LB BreakOut 2.2 Classic.html"><input type="button" value="Посетить"></a>
+				<br><br><br><br>
+			</tr>
+			<tr>
+				<h1>  LB BreakOut Rainbow Edition </h1>
+				<img id="fullphoto" src="img/breakoutrainbow.png">
+				<h2 style="width: 50%; margin: auto; margin-bottom: 20px"> Красочная переливающаяся версия BreakOut не для эпилептиков.  Сделано совместно с Никитой 'busliksuslik' Буслаевым</h2>
+				<a href="MiniGamezzz/LB BreakOut 2.2 Rainbow Edition.html"><input type="button" value="Посетить"></a>
+				<br><br><br><br>
 			</tr>
 		</table>
 
