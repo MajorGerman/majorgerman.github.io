@@ -1,0 +1,102 @@
+
+@font-face{
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,body{
+	height: 100%
+}
+
+#header{
+	font-family: Roboto;
+	font-size: 144px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 169px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+#header-text{
+	font-family: Roboto;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 42px;
+	letter-spacing: 0em;
+	text-align: center;
+
+}
+#button{
+	height: 92px;
+	width: 493px;
+	left: 529px;
+	top: 628px;
+	border-radius: 20px;
+	font-family: Roboto;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 42px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+#easy-text{
+	font-family: Roboto;
+	font-size: 52px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 61px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+#adventages-title{
+	font-family: Roboto;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 75px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+#advantage-text{
+	font-family: Roboto;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+#advantage-name{
+	font-family: Roboto;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 47px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+#sale-title{
+	font-family: Roboto;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 75px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+#sale-text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+
+	color: #686868;
+
+}
