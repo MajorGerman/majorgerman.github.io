@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wow!</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <p class="supertext align-center"> ContrРазведка </p>     
+        </div>
+        <div class="box">
+            <p class="supertext align-center"> Альбомы </p><br><br><br>
+            <div>
+                <div onclick="album1()"> 
+                    <img src="./album1.jpg"> 
+                    <p style="margin: 12px;" class="text align-center"> Контрразведка </p>
+                </div>
+                <div onclick="album2()">
+                    <img src="./album2.jpg">
+                    <p style="margin: 12px;" class="text align-center"> Скрюченные песни </p>
+                </div>
+                <div onclick="album3()">
+                    <img src="./album3.jpg">
+                    <p style="margin: 12px;" class="text align-center"> Герои как я </p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <p class="supertext align-center"> Контакты </p><br><br><br>
+            <p class="text align-center"> Georg Laabe </p>
+            <p class="subtext align-center"> georgchannel8@gmail.com </p><br><br>
+            <p class="text align-center"> Andrey Bogatyrev </p>
+            <p class="subtext align-center"> andreybogatirev1991@rambler.ru </p>
+        </div>
+    </div>
+
+    <script>
+        function album1() {
+            window.location = "https://www.youtube.com/watch?v=HPXr5TtSypE&list=OLAK5uy_kHxX9mnPwdWueOv6vY1Se5n7kRWs7vftI&ab_channel=Contr%D0%A0%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D0%BA%D0%B0-Topic";
+        }
+        function album2() {
+            window.location = "https://www.youtube.com/watch?v=QjrBP6D-81s&list=OLAK5uy_nKiuLp23T9U0O8_GUnGH8p4n66bLiBjgM&ab_channel=Contr%D0%A0%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D0%BA%D0%B0-Topic";
+        }
+        function album3() {
+            window.location = "https://www.youtube.com/channel/UCEwxN_YWbioP-G-FyKBqPdg";
+        }
+    </script>
+</body>
+</html>

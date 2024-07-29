@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia;
+    transition: 0.45s;
+}
+
+object::-webkit-scrollbar {
+width: 10px;
+}
+object::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+object::-webkit-scrollbar-thumb {
+background: #888;
+}
+object::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+
+body {
+    background-color: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+    opacity: 45%;
+}
+a:hover {
+    opacity: 70%;
+}
+img {
+    width: 60%;
+    border-radius: 24px;
+    margin-top: 24px;
+    border: 2px solid grey;
+}
+p {
+    width: 100%;
+}
+object {
+    border-radius: 25px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin: 12px 0px;
+    padding: 24px 16px;
+    border: 2px solid grey;
+    border-radius: 25px;
+}
+.box > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.box > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.65s;
+    cursor: pointer;
+    width: 30%;
+}
+.box > div > div:hover {
+    transform: scale(1.1) rotate(2deg);
+}
+.supertext {
+    color: white;
+    font-size: 36px;
+}
+.text {
+    color: white;
+    font-size: 24px;
+}
+.subtext {
+    color: grey;
+    font-size: 21px;
+}
+.align-center {
+    text-align: center;
+}
+
